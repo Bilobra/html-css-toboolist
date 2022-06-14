@@ -9,7 +9,7 @@ body{
 }
 .container{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 3px;
     background-color: white;
     
 }
@@ -25,12 +25,14 @@ header{
     width: 70px;
     height: 70px;
 }
+/* /header */
+
 
 /* button */
 .button a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     border-radius: 8px;
     padding: 5px 10px;
    
@@ -44,6 +46,22 @@ header{
     background-color: dodgerblue;
     color: white;
 }
+#add-section{
+    color:rgb(192, 189, 189) ;
+    border: 1px solid rgb(192, 189, 189);
+}
+/* button */
+
+/* main */
+
+.main{
+    margin-top: 10px;
+}
+
+.sezione{
+    padding:25px;
+}
+
 
 /* regole debug */
 .debug{
