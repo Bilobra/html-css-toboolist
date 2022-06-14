@@ -46,11 +46,9 @@ header{
     font-size: 12px;
    
 }
-
 .button{
     padding: 13px;
 }
-
 #add-task{
     background-color: dodgerblue;
     color: white;
@@ -61,16 +59,17 @@ header{
 }
 /* button */
 
-/* main */
 
+/* main */
 .main{
     margin-top: 10px;
 }
+
+
 /* list */
 .container-list{
     margin-bottom:40px;
 }
-
 .sezione{
     padding:25px;
     color: rgb(73, 69, 69);
@@ -80,7 +79,6 @@ header{
     
     
 }
-
 .sezione li {
     padding: 8px;
     list-style-type: none;
@@ -93,6 +91,8 @@ header{
 .dtrif{
     font-size: 25px;
 }
+/* /list */
+
 
  /* button list */
  .editorial{
@@ -157,6 +157,8 @@ header{
 }
 /* /botton list */
 
+
+
 /* check/cross-list */
 .check{
     color: rgb(86, 172, 86);
@@ -186,11 +188,4 @@ header{
     font-size: 10px;
     /* align-items: center; */
 }
-/* regole debug */
-/* .debug{
-    border: 1px solid red;
-    padding: 10px;
-}
-.debug .container{
-    border: 1px solid red;
-} */
+/* /check/cross-list */
