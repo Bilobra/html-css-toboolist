@@ -62,7 +62,99 @@ header{
     padding:25px;
 }
 
+.sezione li {
+    padding: 6px;
+    list-style-type: none;
+}
+ /* button list */
+ .editorial{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px;
+ }
+ #q1-goals{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(165, 80, 245);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px; 
+ }
+ #rescruiting{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(79, 190, 112);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px;
+ }
+#mobile{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(241, 123, 44);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px;
+}
+#website{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(255, 30, 244);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px;
+}
+#sales{
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(140, 219, 50);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    margin-left: 2px;
+}
+/* /botton list */
 
+/* check/cross-list */
+.check{
+    color: rgb(86, 172, 86);
+    border-radius: 50%;
+    border: 1px solid rgb(86, 172, 86);
+    text-align: center;
+    vertical-align: bottom;
+    padding: 1px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+
+}
+.cross{
+    color: rgb(248, 72, 72);
+    border-radius: 50%;
+    border: 1px solid rgb(248, 72, 72);
+    text-align: center;
+    vertical-align: bottom;
+    padding: 1px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
 /* regole debug */
 .debug{
     border: 1px solid red;
