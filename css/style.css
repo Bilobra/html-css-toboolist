@@ -10,7 +10,7 @@ body{
 }
 .container{
     max-width: 800px;
-    max-height: 520px;
+    max-height: 600px;
     margin: 0 auto 3px;
     background-color: white;
     border-radius: 5px 5px;
@@ -66,26 +66,38 @@ header{
 .main{
     margin-top: 10px;
 }
+/* list */
+.container-list{
+    margin-bottom:40px;
+}
 
 .sezione{
     padding:25px;
     color: rgb(73, 69, 69);
     font-size: 16px;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
 
 .sezione li {
-    padding: 6px;
+    padding: 8px;
     list-style-type: none;
 }
 .list-title{
     font-weight: 600;
+    font-size: 20px;
+    
 }
+.dtrif{
+    font-size: 25px;
+}
+
  /* button list */
  .editorial{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
     background-color: dodgerblue;
     color: white;
     font-size: 10px;
@@ -94,8 +106,8 @@ header{
     margin-left: 2px;
  }
  #q1-goals{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
     background-color: rgb(165, 80, 245);
     color: white;
     font-size: 10px;
@@ -104,8 +116,8 @@ header{
     margin-left: 2px; 
  }
  #rescruiting{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 5px 12px 5px;
     background-color: rgb(79, 190, 112);
     color: white;
     font-size: 10px;
@@ -114,8 +126,8 @@ header{
     margin-left: 2px;
  }
 #mobile{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding:5px 10px 5px;
     background-color: rgb(241, 123, 44);
     color: white;
     font-size: 10px;
@@ -124,8 +136,8 @@ header{
     margin-left: 2px;
 }
 #website{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
     background-color: rgb(255, 30, 244);
     color: white;
     font-size: 10px;
@@ -134,8 +146,8 @@ header{
     margin-left: 2px;
 }
 #sales{
-    border-radius: 12px;
-    padding: 8px;
+    border-radius: 8px;
+    padding: 5px 10px 5px;
     background-color: rgb(140, 219, 50);
     color: white;
     font-size: 10px;
@@ -151,12 +163,13 @@ header{
     border-radius: 50%;
     border: 1px solid rgb(86, 172, 86);
     text-align: center;
-    vertical-align: bottom;
+    vertical-align:bottom;
     padding: 1px;
-    margin-right: 3px;
-    width: 15px;
-    height: 15px;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
+    font-size: 10px;
 
 }
 .cross{
@@ -164,12 +177,14 @@ header{
     border-radius: 50%;
     border: 1px solid rgb(248, 72, 72);
     text-align: center;
-    vertical-align: bottom;
+    vertical-align:bottom;
     padding: 1px;
-    margin-right: 3px;
-    width: 15px;
-    height: 15px;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
+    font-size: 10px;
+    /* align-items: center; */
 }
 /* regole debug */
 /* .debug{
